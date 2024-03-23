@@ -8,6 +8,7 @@ Leaves_Threshold2 	-- default starting threshold value for leaves
 Root_Threshold 	-- default starting threshold value for roots   
 If_Dynamics 	-- default value for “if dynamics of luciferase signal during the imaging is interested?”. 1 for Yes and 0 for No. If 1 is specified, an output file will be generated for each image in the folder containing Luciferase images and results in a longer processing time. 
 Except for the If_Dynamics, the other two parameters usually need no change. 
+
 Instructions on processing steps: 
 Step 1: select the files need processing using user interface. 
 1.	“Select the COLOR Image Collected by a Regular Camera”
@@ -101,7 +102,4 @@ After all indexes of root ROI are inputted for each plant, a question dialog app
 
 Outputs: 
 Then, the ROIs of each plant will be applied to the Luciferase Images identified in the Luciferase folder. Results are output into the folder containing the Color Image and Bright-Field Image. The ROI mask of leaves, roots and whole plants of each plant can also be found in that folder. 
-
-
-
 
